@@ -2,7 +2,7 @@
 
 <a href="https://www.buymeacoffee.com/Nerivec" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-Some dev stuff related to the [new ember implementation](https://github.com/Nerivec/zigbee-herdsman/tree/alt-ember) for [zigbee-herdsman](https://github.com/Koenkk/zigbee2mqtt).
+Some dev stuff related to the [new ember implementation](https://github.com/Nerivec/zigbee-herdsman/tree/alt-ember) ([introducing PR](https://github.com/Koenkk/zigbee-herdsman/pull/918)) for [zigbee-herdsman](https://github.com/Koenkk/zigbee2mqtt).
 
 Logs are abbreviated to the relevant parts...
 
