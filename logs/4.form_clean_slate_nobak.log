@@ -1,0 +1,61 @@
+Zigbee2MQTT:info  2024-02-17 03:58:28: Starting zigbee-herdsman (0.33.8)
+======== Ember Adapter Starting ========
+======== EZSP starting ========
+======== ASH NCP reset ========
+======== ASH starting ========
+======== ASH connected ========
+======== ASH started ========
+======== EZSP started ========
+Registered endpoint 1 with status=SUCCESS.
+Registered endpoint 242 with status=SUCCESS.
+Registered multicast table entry: {"multicastId":2948,"endpoint":242,"networkIndex":0}.
+[STACK STATUS] Network up.
+[INIT TC] NCP network does not match config. Leaving network...
+[STACK STATUS] Network down.
+[INIT TC] No valid backup found.
+[INIT TC] Forming from config.
+[INIT FORM] Forming new network with: {"panId":4004,"extendedPanId":[66,154,17,97,179,126,220,103],"radioTxPower":5,"radioChannel":20,"joinMethod":0,"nwkManagerId":0,"nwkUpdateId":0,"channels":134215680}
+[STACK STATUS] Network up.
+[INIT FORM] New network formed!
+[CONCENTRATOR] Started source route discovery. 1248ms until next broadcast.
+Zigbee2MQTT:info  2024-02-17 03:58:31: zigbee-herdsman started (reset)
+Zigbee2MQTT:info  2024-02-17 03:58:31: Coordinator firmware version: '{"meta":{"build":0,"ezsp":13,"major":7,"minor":4,"patch":0,"revision":"7.4.0 [GA]","special":0,"type":170},"type":"EZSP v13"}'
+Zigbee2MQTT:info  2024-02-17 03:58:31: Currently 0 devices are joined:
+...
+Zigbee2MQTT:info  2024-02-17 03:58:32: Zigbee2MQTT started!
+...
+Zigbee2MQTT:info  2024-02-17 03:59:01: Disconnecting from MQTT server
+Zigbee2MQTT:info  2024-02-17 03:59:01: Stopping zigbee-herdsman...
+┌──────────────┬──────────┬─────────────┐
+│   (index)    │ Received │ Transmitted │
+├──────────────┼──────────┼─────────────┤
+│ Total frames │    77    │     147     │
+│  Cancelled   │    0     │      0      │
+│ DATA frames  │    76    │     69      │
+│  DATA bytes  │   769    │     758     │
+│ Retry frames │    0     │      0      │
+│  ACK frames  │    0     │     77      │
+│  NAK frames  │    0     │      0      │
+│ nRdy frames  │    0     │      0      │
+└──────────────┴──────────┴─────────────┘
+┌──────────────────┬──────────┐
+│     (index)      │ Received │
+├──────────────────┼──────────┤
+│    CRC errors    │    0     │
+│   Comm errors    │    0     │
+│ Length < minimum │    0     │
+│ Length > maximum │    0     │
+│   Bad controls   │    0     │
+│   Bad lengths    │    0     │
+│ Bad ACK numbers  │    0     │
+│  Out of buffers  │    0     │
+│   Retry dupes    │    0     │
+│ Out of sequence  │    0     │
+│   ACK timeouts   │    0     │
+└──────────────────┴──────────┘
+Port closed. Error? no
+======== ASH stopped ========
+======== EZSP stopped ========
+======== Ember Adapter Stopped ========
+Zigbee2MQTT:info  2024-02-17 03:59:01: Stopped zigbee-herdsman
+Zigbee2MQTT:info  2024-02-17 03:59:01: Stopped Zigbee2MQTT
